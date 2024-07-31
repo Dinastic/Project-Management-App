@@ -9,8 +9,8 @@ const NewProject = ({ onAdd }) => {
 
     const handleSave = () => {
         const enteredTitle = title.current.value;
-        const enteredDescription = title.description.value;
-        const enteredDueDate = title.dueDate.value;
+        const enteredDescription = description.current.value;
+        const enteredDueDate = dueDate.current.value;
 
         //validation ...
 
